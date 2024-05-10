@@ -22,3 +22,8 @@ def get_data(api,params=None):
 def formatted_print(self, obj):
     text = json.dumps(obj, sort_keys=True, indent=4)
     print(text)
+
+def app_list():
+    get_apps='https://api.steampowered.com/ISteamApps/GetAppList/v2/'
+    data=get_data(get_apps)
+    return (data['applist']['apps'] )

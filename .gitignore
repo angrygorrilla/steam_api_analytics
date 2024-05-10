@@ -4,7 +4,9 @@ steam_api.txt
 # Data-Science and Results
 *.csv
 *.png
-
+*.txt
+*.json
+results/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
